@@ -7,15 +7,10 @@ on:
     tags:
       - '**'
 
-<<<<<<< HEAD
-
-=======
->>>>>>> f76083b9447ffcd59b1b8e6765823956834ed95f
 jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-<<<<<<< HEAD
     - name: Set up GitHub Actions
       uses: actions/checkout@v3
     - name: Use Node.js 14.x
@@ -36,7 +31,6 @@ jobs:
         path: tests-selfmade-project-2-v2-public/output.jpg
     - name: Show test results
       run: bash tests-selfmade-project-2-v2-public/result.sh
-=======
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Check if the repository is private
@@ -46,4 +40,3 @@ jobs:
         uses: Yandex-Practicum/test-project-action@v1
         with:
           project: 'ono-tebe-nado-fd'
->>>>>>> f76083b9447ffcd59b1b8e6765823956834ed95f
